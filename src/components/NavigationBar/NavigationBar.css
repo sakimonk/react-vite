@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+    .mainMenu {
+        display: none;
+    }
+    .moreMenu {
+        display: block;
+    }
+}
+@media screen and (min-width: 993px) {
+    /*.mainMenu {*/
+    /*    display: none;*/
+    /*}*/
+    .moreMenu {
+        display: none !important;
+    }
+}
